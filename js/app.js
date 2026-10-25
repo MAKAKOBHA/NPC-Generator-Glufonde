@@ -4,12 +4,13 @@ import {Library} from './storage.js';
 import {GenerationHistory} from './history.js';
 import {createDocx} from './docx.js';
 import {validateData,validateNpc} from './validation.js';
-import {$,node,renderCard,description,copyText,download,confirmAction} from './ui.js';
+import {$,node,renderCard,description,copyText,download,confirmAction,ageText} from './ui.js';
 let history,historyId=null;
 let data,generator,library,current=null,category='man',locks=new Set(),savedId=null,dirty=false;
 const status=text=>$('status').textContent=text;
 const safe=fn=>async(...args)=>{try{await fn(...args);}catch(error){status(error.message||'Не удалось выполнить действие.');}};
 function view(which){
+ document.querySelector('main').dataset.view=which;
  for(const key of ['generator','library','history']){$(key+'-view').hidden=which!==key;$(key+'-tab').setAttribute('aria-pressed',String(which===key));}
  if(which==='library')renderLibrary();if(which==='history')renderHistory();
 }
@@ -22,7 +23,7 @@ function renderHistory(){
  const list=$('history-list');list.replaceChildren();const all=history.read();historyControls();
  if(!all.length){list.append(node('p','История пока пуста. Сгенерируйте персонажа.'));return;}
  for(const n of [...all].reverse()){
-  const card=node('article',undefined,{class:'saved-card'});card.append(node('h3',n.name),node('p',`${n.age} лет · ${n.birthplace}`),node('p',n.profession));
+  const card=node('article',undefined,{class:'saved-card'});card.append(node('h3',n.name),node('p',`${ageText(n.age)} · ${n.birthplace} · ${n.profession}`));
   const open=node('button','Открыть');open.onclick=()=>{current=structuredClone(n);category=n.category;historyId=n.id;savedId=null;dirty=true;locks.clear();render();view('generator');$('workspace').focus();status('Открыт персонаж из истории.');};card.append(open);list.append(card);
  }
 }
@@ -40,7 +41,7 @@ function renderLibrary(){
  const q=$('search').value.trim().toLocaleLowerCase('ru'),shown=all.filter(n=>[n.name,n.birthplace,n.profession].some(x=>x.toLocaleLowerCase('ru').includes(q)));
  const list=$('library-list');list.replaceChildren();
  if(!shown.length){list.append(node('p',all.length?'Ничего не найдено.':'Библиотека пока пуста. Сохраните первого персонажа.'));return;}
- for(const n of shown){const card=node('article',undefined,{class:'saved-card'});card.append(node('h3',n.name),node('p',`${n.age} лет · ${n.birthplace}`),node('p',n.profession));const actions=node('div',undefined,{class:'actions'});
+ for(const n of shown){const card=node('article',undefined,{class:'saved-card'});card.append(node('h3',n.name),node('p',`${ageText(n.age)} · ${n.birthplace} · ${n.profession}`));const actions=node('div',undefined,{class:'actions'});
  const open=node('button','Открыть'),copy=node('button','Копировать'),remove=node('button','Удалить');
  open.onclick=()=>{current=structuredClone(n);category=n.category;historyId=null;savedId=n.id;dirty=false;locks.clear();render();view('generator');$('workspace').focus();status('Открыт сохранённый персонаж.');};
  copy.onclick=safe(async()=>{if(await copyText(description(n,$('hide-gm').checked)))status('Описание скопировано.');});
