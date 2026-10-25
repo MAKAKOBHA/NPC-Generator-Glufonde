@@ -1,0 +1,1 @@
+{"name":"glufonde-npc-generator","private":true,"type":"module","scripts":{"test":"node --test tests/*.test.js","serve":"python3 -m http.server 8000","prepare:site":"node tools/prepare-site.js"},"engines":{"node":">=22"}}
