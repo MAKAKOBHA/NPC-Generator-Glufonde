@@ -1,0 +1,608 @@
+[
+  {
+    "male": "Шахтёр",
+    "female": "Шахтёр",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Дул"
+  },
+  {
+    "male": "Кондуктор",
+    "female": "Кондуктор",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Официант",
+    "female": "Официантка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Врелей"
+  },
+  {
+    "male": "Повар",
+    "female": "Повар",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Служащий",
+    "female": "Служащая",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Полицейский",
+    "female": "Полицейская",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Слесарь",
+    "female": "Слесарь",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Разкол"
+  },
+  {
+    "male": "Железнодорожник",
+    "female": "Железнодорожница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Портовый рабочий",
+    "female": "Портовая рабочая",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Бедо"
+  },
+  {
+    "male": "Фабричный рабочий",
+    "female": "Фабричная рабочая",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Разкол"
+  },
+  {
+    "male": "Санитар",
+    "female": "Санитарка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Сторож",
+    "female": "Сторож",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Продавец",
+    "female": "Продавщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Рыбак",
+    "female": "Рыбачка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Бедо"
+  },
+  {
+    "male": "Учитель",
+    "female": "Учительница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Безработный",
+    "female": "Безработная",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Пекарь",
+    "female": "Пекарь",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Портной",
+    "female": "Портниха",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Сапожник",
+    "female": "Сапожник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Столяр",
+    "female": "Столяр",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Плотник",
+    "female": "Плотник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Кузнец",
+    "female": "Кузнец",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Прачечник",
+    "female": "Прачка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Почтальон",
+    "female": "Почтальон",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Наборщик",
+    "female": "Наборщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Переплётчик",
+    "female": "Переплётчица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Печатник",
+    "female": "Печатница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Бухгалтер",
+    "female": "Бухгалтер",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Кассир",
+    "female": "Кассирша",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Писарь",
+    "female": "Писарь",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Аптекарь",
+    "female": "Аптекарь",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Врач",
+    "female": "Врач",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Акушер",
+    "female": "Акушерка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Фельдшер",
+    "female": "Фельдшер",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Садовник",
+    "female": "Садовница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Огородник",
+    "female": "Огородница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Пшенинца"
+  },
+  {
+    "male": "Батрак",
+    "female": "Батрачка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Пшенинца"
+  },
+  {
+    "male": "Мельник",
+    "female": "Мельник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Пастух",
+    "female": "Пастушка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Грузчик",
+    "female": "Грузчица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Уборщик",
+    "female": "Уборщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Дворник",
+    "female": "Дворник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Кочегар",
+    "female": "Кочегар",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Машинист",
+    "female": "Машинист",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Стрелочник",
+    "female": "Стрелочница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Путевой обходчик",
+    "female": "Путевая обходчица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Телеграфист",
+    "female": "Телеграфистка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Ткач",
+    "female": "Ткачиха",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Прядильщик",
+    "female": "Прядильщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Красильщик",
+    "female": "Красильщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Кожевник",
+    "female": "Кожевник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Шорник",
+    "female": "Шорник",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Бондарь",
+    "female": "Бондарь",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Гончар",
+    "female": "Гончар",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Стекольщик",
+    "female": "Стекольщик",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Часовщик",
+    "female": "Часовщик",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Ювелир",
+    "female": "Ювелир",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Парикмахер",
+    "female": "Парикмахер",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Банщик",
+    "female": "Банщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Трактирщик",
+    "female": "Трактирщица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Буфетчик",
+    "female": "Буфетчица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Музыкант",
+    "female": "Музыкантша",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Врелей"
+  },
+  {
+    "male": "Билетёр",
+    "female": "Билетёрша",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Костюмер",
+    "female": "Костюмерша",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Суфлёр",
+    "female": "Суфлёрша",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Извозчик",
+    "female": "Извозчица",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Лодочник",
+    "female": "Лодочница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Матрос",
+    "female": "Матрос",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Бедо"
+  },
+  {
+    "male": "Смотритель склада",
+    "female": "Смотрительница склада",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Тюремный надзиратель",
+    "female": "Тюремная надзирательница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4,
+    "affinity": "Дул"
+  },
+  {
+    "male": "Каменщик",
+    "female": "Каменщик",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Маляр",
+    "female": "Маляр",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Кровельщик",
+    "female": "Кровельщик",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Уличный торговец",
+    "female": "Уличная торговка",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Домашний учитель",
+    "female": "Домашняя учительница",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Посыльный",
+    "female": "Посыльная",
+    "minAge": 18,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Пенсионер",
+    "female": "Пенсионерка",
+    "minAge": 60,
+    "maxAge": 80,
+    "weight": 4
+  },
+  {
+    "male": "Школьник",
+    "female": "Школьница",
+    "minAge": 6,
+    "maxAge": 17,
+    "weight": 5
+  },
+  {
+    "male": "Ученик ремесленника",
+    "female": "Ученица ремесленника",
+    "minAge": 12,
+    "maxAge": 17,
+    "weight": 2
+  },
+  {
+    "male": "Помощник в семейной лавке",
+    "female": "Помощница в семейной лавке",
+    "minAge": 10,
+    "maxAge": 17,
+    "weight": 2
+  },
+  {
+    "male": "Ребёнок на прогулке",
+    "female": "Ребёнок на прогулке",
+    "minAge": 6,
+    "maxAge": 17,
+    "weight": 5
+  },
+  {
+    "male": "Ученик при мастерской",
+    "female": "Ученица при мастерской",
+    "minAge": 14,
+    "maxAge": 17,
+    "weight": 2
+  },
+  {
+    "male": "Помощник садовника",
+    "female": "Помощница садовника",
+    "minAge": 12,
+    "maxAge": 17,
+    "weight": 2
+  },
+  {
+    "male": "Ученик пекаря",
+    "female": "Ученица пекаря",
+    "minAge": 12,
+    "maxAge": 17,
+    "weight": 2
+  },
+  {
+    "male": "Доставщик газет",
+    "female": "Доставщица газет",
+    "minAge": 12,
+    "maxAge": 17,
+    "weight": 2
+  }
+]

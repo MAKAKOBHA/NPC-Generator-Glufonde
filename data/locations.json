@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Зровер",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Дул",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Разкол",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Горка",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Нова Горка",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Барташа",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Врелей",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Бедо",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Шанс",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Далёко",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Тополица",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Сосна",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Пшенинца",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Шавмер",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Торбуттон",
+    "kind": "city",
+    "weight": 6
+  },
+  {
+    "text": "Стаб",
+    "kind": "country",
+    "weight": 3
+  },
+  {
+    "text": "Королевство Карбанто",
+    "kind": "country",
+    "weight": 3
+  },
+  {
+    "text": "Бигла",
+    "kind": "country",
+    "weight": 3
+  }
+]
