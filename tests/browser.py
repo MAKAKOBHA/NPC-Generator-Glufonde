@@ -2,7 +2,8 @@
 import json
 from pathlib import Path
 from playwright.sync_api import sync_playwright, expect
-URL='http://127.0.0.1:8000/NPC-Generator-Glufonde/'
+import os
+URL=os.environ.get('NPC_TEST_URL','http://127.0.0.1:8000/NPC-Generator-Glufonde/')
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox'])
  context=browser.new_context(accept_downloads=True)

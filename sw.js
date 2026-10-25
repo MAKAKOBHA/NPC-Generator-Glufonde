@@ -1,5 +1,5 @@
-const CACHE='glufonde-npc-db484681890e669b';
-const ASSETS=["./","./css/style.css","./data/appearance.json","./data/habits.json","./data/locations.json","./data/moods.json","./data/names.json","./data/professions.json","./data/speech.json","./data/surnames.json","./index.html","./js/app.js","./js/config.js","./js/generator.js","./js/random.js","./js/storage.js","./js/ui.js","./js/validation.js"];
+const CACHE='glufonde-npc-24d7624fb90edad1';
+const ASSETS=["./","./css/style.css","./data/appearance.json","./data/habits.json","./data/locations.json","./data/moods.json","./data/names.json","./data/professions.json","./data/speech.json","./data/surnames.json","./index.html","./js/app.js","./js/config.js","./js/docx.js","./js/generator.js","./js/history.js","./js/random.js","./js/storage.js","./js/ui.js","./js/validation.js"];
 const ROOT=new URL('./',self.location.href).href;
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS))));
 // Без skipWaiting: старая вкладка получает только совместимые файлы своей версии.

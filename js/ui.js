@@ -20,7 +20,7 @@ export function renderCard(n,locks,hideGm,onRegenerate,onLock){
 export async function copyText(text){
  try{await navigator.clipboard.writeText(text);}catch{$('copy-text').value=text;$('copy-dialog').showModal();$('copy-text').select();return false;}return true;
 }
-export function download(text,name){const url=URL.createObjectURL(new Blob([text],{type:'application/json;charset=utf-8'})),link=node('a',undefined,{href:url,download:name});document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+export function download(text,name){const url=URL.createObjectURL(text instanceof Blob?text:new Blob([text],{type:'application/json;charset=utf-8'})),link=node('a',undefined,{href:url,download:name});document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}
 export function confirmAction(title,text){$('confirm-title').textContent=title;$('confirm-text').textContent=text;$('confirm').showModal();return new Promise(resolve=>{
  let settled=false;const done=value=>{if(settled)return;settled=true;$('confirm').close();resolve(value);};$('confirm-yes').onclick=()=>done(true);$('confirm-no').onclick=()=>done(false);$('confirm').oncancel=()=>done(false);
  });}
