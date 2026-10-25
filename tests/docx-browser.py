@@ -29,7 +29,16 @@ with sync_playwright() as p:
  text=inspect(pending.value)
  for name in names:assert name in text
  assert text.count('Информация мастера')==4
+ with page.expect_download() as pending:page.locator('#export-current-docx').click()
+ assert pending.value.suggested_filename=='glufonde-npc.docx'
+ text=inspect(pending.value);assert names[-1] in text;assert 'Персонажей: 1' in text;assert 'Информация мастера' in text
  page.locator('#hide-gm').check()
+ with page.expect_download() as pending:page.locator('#export-current-docx').click()
+ text=inspect(pending.value);assert 'Осведомлённость' not in text
+ with page.expect_download() as pending:page.locator('#export-current').click()
+ assert pending.value.suggested_filename=='glufonde-npc.json'
+ import json
+ assert len(json.loads(Path(pending.value.path()).read_text())['npcs'])==1
  with page.expect_download() as pending:page.locator('#export-history-docx').click()
  text=inspect(pending.value);assert 'Информация мастера' not in text;assert 'Осведомлённость' not in text
  page.locator('#save').click();page.locator('#library-tab').click()

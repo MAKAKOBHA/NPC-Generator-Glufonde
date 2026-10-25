@@ -88,7 +88,8 @@ function bind(){
  $('search').oninput=safe(renderLibrary);
  $('export-library-docx').onclick=safe(()=>{download(createDocx(library.read(),{hideGm:$('hide-gm').checked}),'glufonde-npc-library.docx');status('Библиотека экспортирована в DOCX.');});
  $('export').onclick=safe(()=>{download(library.export(),'glufonde-library.json');status('Библиотека экспортирована.');});
- $('export-current').onclick=()=>download(library.export([current]),'glufonde-npc.json');
+ $('export-current-docx').onclick=safe(()=>{download(createDocx([current],{hideGm:$('hide-gm').checked}),'glufonde-npc.docx');status('Создан документ Word (.docx) текущего NPC.');});
+ $('export-current').onclick=()=>{download(library.export([current]),'glufonde-npc.json');status('Создана резервная копия JSON для импорта. Для Word выберите «Скачать NPC (.docx)».');};
  $('import').onchange=safe(async event=>{const file=event.target.files[0];try{if(!file)return;if(file.size>5_000_000)throw new Error('Файл слишком большой (максимум 5 МБ)');const count=library.import(await file.text());renderLibrary();status(`Импортировано персонажей: ${count}.`);}finally{event.target.value='';}});
  window.addEventListener('storage',safe(()=>{renderLibrary();status('Библиотека обновлена в другой вкладке.');}));
 }
